@@ -1,0 +1,11 @@
+{% for recipe in all_recipes %}
+                    <tr>
+                        <td>{{ recipe.name }}</td>
+                        <td>{{ recipe.under_thirty }}</td>
+                        <td>
+                            <a href="">view instructions</a> |
+                            <a href="">edit</a> |
+                            <a href="Delete"> delete</a>
+                        </td>
+                    </tr>
+                {% endfor %}
